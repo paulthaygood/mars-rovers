@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+form {
+  background: black;
+  color: #fff;
+  padding: 30px 32px;
+  text-align: center;
+}
+
+form input, form select {
+  margin-right: 20px;
+}
+
+form label {
+  margin-right: 10px;
+}
+
+form + div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+form + div > img {
+  flex-basis: 25%;
+}
